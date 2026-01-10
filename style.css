@@ -236,90 +236,122 @@ section {
     position: relative;
     z-index: 1;
 }
-/* Hero Section Table-like Landscape Layout */
-.hero-fullscreen {
-    height: 100vh;
+/* Hero Section Reset */
+.hero-section {
+    height: 100vh; /* Full Screen Height */
     width: 100%;
     display: flex;
-    flex-direction: column; /* Content ko center karne ke liye */
-    align-items: center;    /* Horizontal center */
-    justify-content: center; /* Vertical center */
+    justify-content: center; /* Horizontal Center */
+    align-items: center;     /* Vertical Center */
+    background-color: #0b0b10;
     position: relative;
-    overflow: hidden;
-    background-color: #0b0b10; /* Darker background jaisa image mein hai */
-    text-align: center;      /* Saara text center rahega */
-    padding: 0 10%;
+    padding: 0 20px;
 }
 
+/* Main Content Box */
 .hero-content {
-    position: relative;
-    z-index: 10;
-    max-width: 1000px; /* Wider landscape feel */
+    text-align: center; /* Text ko center force karega */
+    max-width: 900px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Items (Buttons/Skills) ko center karega */
+    z-index: 10;
 }
 
-.hero-name {
-    font-size: 5.5rem; /* Bada aur bold impact */
+/* Typography */
+.greeting {
+    font-size: 1.5rem;
+    color: #cbd5e1;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-size: 5rem;
     font-weight: 800;
-    letter-spacing: -2px;
-    margin-bottom: 15px;
-    color: #ffffff;
-    line-height: 1;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    color: #fff;
 }
 
-/* Gradient effect for the name */
 .highlight {
-    background: linear-gradient(90deg, #818cf8, #c084fc);
+    color: #818cf8; /* Fallback color */
+    background: linear-gradient(to right, #818cf8, #c084fc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.hero-subtitle {
+.title {
     font-size: 2rem;
     color: #94a3b8;
-    font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
-.hero-description {
+.description {
     font-size: 1.1rem;
     color: #64748b;
-    max-width: 700px; /* Text ko bohot lamba hone se rokta hai */
+    max-width: 600px;
     line-height: 1.6;
-    margin-bottom: 35px;
+    margin-bottom: 2.5rem;
 }
 
-/* Button Group Alignment */
-.hero-btns {
+/* Buttons Styling */
+.hero-buttons {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    justify-content: center; /* Buttons ko center karega */
 }
 
-/* Skill Tags (Jo buttons ke niche hain) */
-.skill-tags {
-    margin-top: 50px;
+.btn-primary {
+    padding: 14px 32px;
+    background: linear-gradient(90deg, #6366f1, #a855f7);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    transition: transform 0.3s;
+}
+
+.btn-secondary {
+    padding: 14px 32px;
+    background: transparent;
+    border: 1px solid #475569;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    transform: translateY(-3px);
+}
+
+/* Skills Pills Styling */
+.skills-container {
     display: flex;
+    gap: 12px;
     flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    opacity: 0.8;
+    justify-content: center; /* Tags ko center karega */
 }
 
-.skill-tag {
+.skill-pill {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
     padding: 8px 20px;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: white;
+    border-radius: 20px;
     font-size: 0.9rem;
 }
 
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .name { font-size: 3rem; }
+    .title { font-size: 1.5rem; }
+    .hero-buttons { flex-direction: column; gap: 15px; align-items: center; }
+}
 /* Tech Stack Marquee */
 .tech-marquee {
     margin-top: 5rem;
