@@ -1,0 +1,66 @@
+{
+  "designer": {
+    "name": "Syed Ansab Ali",
+    "title": "Graphics Designer",
+    "tagline": "Crafting visual identities that speak louder than words.",
+    "bio": "I am a passionate Graphics Designer from Karachi, Pakistan — specializing in brand identity, logo design, social media creatives, and print design. I turn ideas into visuals that leave a lasting impression.",
+    "email": "syedansab98@gmail.com",
+    "phone": "+92 330 3966165",
+    "location": "Karachi, Pakistan",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/syed-ansab-a50031334/",
+      "instagram": "",
+      "behance": "",
+      "fiverr": ""
+    },
+    "avatar": "https://www.dropbox.com/scl/fi/6b0t6ejxsksyklzzd9v1p/profile.jpeg?rlkey=t17qqyo4lw1698szk1kzx7zsq&st=5aqti4fk&dl=1"
+  },
+  "services": [
+    { "id": 1, "icon": "✦", "title": "Logo & Brand Identity", "desc": "Memorable logos and complete brand systems that define who you are and what you stand for." },
+    { "id": 2, "icon": "◈", "title": "Social Media Design", "desc": "Eye-catching posts, stories, and banners that stop the scroll and grow your audience." },
+    { "id": 3, "icon": "◉", "title": "Print Design", "desc": "Business cards, flyers, brochures — print materials that make a lasting impression." },
+    { "id": 4, "icon": "◐", "title": "Poster & Banner Design", "desc": "Bold, creative visuals for events, campaigns, and promotions that demand attention." }
+  ],
+  "categories": ["All", "Logo Design", "Branding", "Social Media", "Print", "Poster"],
+  "projects": [
+    {
+      "id": 1,
+      "title": "SAA Personal Brand",
+      "category": "Branding",
+      "image": "https://www.dropbox.com/scl/fi/snup0qmnh9u4lzl58maaw/logo.png?rlkey=mhf773wn549fcbsemxzhcftjo&st=xnh7x88y&dl=1",
+      "description": "Personal brand identity and logo design",
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "title": "Huff n Puff",
+      "category": "Logo Design",
+      "image": "https://www.dropbox.com/scl/fi/6dn80zswghgi2kksphsjv/huff-puff.png?rlkey=cpoan9v6jgdqlzilmxi7ip7pu&st=4j2lhuzo&dl=1",
+      "description": "Brand identity design for Huff n Puff",
+      "year": "2024"
+    },
+    {
+      "id": 3,
+      "title": "M. Zia Khan Coaching Centre",
+      "category": "Branding",
+      "image": "https://www.dropbox.com/scl/fi/k7kd08rag0cq1f5lnnxfx/coaching-centre.png?rlkey=vuvuoe8279gt90su533n77qmo&st=8u5wr34s&dl=1",
+      "description": "Complete branding for coaching centre",
+      "year": "2024"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Client Name",
+      "role": "Business Owner",
+      "text": "Absolutely loved the work! The logo perfectly captured my brand vision. Highly recommended!",
+      "avatar": ""
+    }
+  ],
+  "stats": {
+    "projects": "100+",
+    "clients": "50+",
+    "experience": "5+",
+    "satisfaction": "100%"
+  }
+}
