@@ -3,40 +3,40 @@
     "name": "Syed Ansab Ali",
     "title": "Graphics Designer",
     "tagline": "Crafting visual identities that speak louder than words.",
-    "bio": "I am a passionate Graphics Designer from Karachi, Pakistan Ã¢ÂÂ specializing in brand identity, logo design, social media creatives, and print design. I turn ideas into visuals that leave a lasting impression.",
+    "bio": "I am a passionate Graphics Designer from Karachi, Pakistan \u2014 specializing in brand identity, logo design, social media creatives, and print design. I turn ideas into visuals that leave a lasting impression.",
     "email": "syedansab98@gmail.com",
     "phone": "+92 330 3966165",
-    "location": "Mirpurkhas, Pakistan",
+    "location": "Karachi, Pakistan",
     "social": {
       "linkedin": "https://www.linkedin.com/in/syed-ansab-a50031334/",
       "instagram": "",
       "behance": "",
       "fiverr": ""
     },
-    "avatar": "https://www.dropbox.com/scl/fi/veey6a98r9q00mv0o5bpb/WhatsApp-Image-2026-02-19-at-9.32.20-PM.jpeg?rlkey=mfgjq5y0d5xaxzgbogeoev95v&st=u2fwmg2i&dl=0"
+    "avatar": "https://www.dropbox.com/scl/fi/6b0t6ejxsksyklzzd9v1p/profile.jpeg?rlkey=t17qqyo4lw1698szk1kzx7zsq&st=5aqti4fk&dl=1"
   },
   "services": [
     {
       "id": 1,
-      "icon": "Ã¢ÂÂ¦",
+      "icon": "&#10022;",
       "title": "Logo & Brand Identity",
       "desc": "Memorable logos and complete brand systems that define who you are and what you stand for."
     },
     {
       "id": 2,
-      "icon": "Ã¢ÂÂ",
+      "icon": "&#9672;",
       "title": "Social Media Design",
       "desc": "Eye-catching posts, stories, and banners that stop the scroll and grow your audience."
     },
     {
       "id": 3,
-      "icon": "Ã¢ÂÂ",
+      "icon": "&#9711;",
       "title": "Print Design",
-      "desc": "Business cards, flyers, brochures Ã¢ÂÂ print materials that make a lasting impression."
+      "desc": "Business cards, flyers, brochures \u2014 print materials that make a lasting impression."
     },
     {
       "id": 4,
-      "icon": "Ã¢ÂÂ",
+      "icon": "&#9680;",
       "title": "Poster & Banner Design",
       "desc": "Bold, creative visuals for events, campaigns, and promotions that demand attention."
     }
@@ -85,9 +85,9 @@
     }
   ],
   "stats": {
-    "projects": "20+",
-    "clients": "10+",
-    "experience": "3+",
+    "projects": "100+",
+    "clients": "50+",
+    "experience": "5+",
     "satisfaction": "100%"
   }
 }
